@@ -1,6 +1,7 @@
 import sys
 
 from java.io import File
+from java.lang import System
 
 from ij import IJ
 
@@ -62,5 +63,4 @@ xml_writer.appendModel(model)
 xml_writer.appendSettings(settings)
 xml_writer.writeToFile()
 
-exit(0)
-
+System.exit(0)
